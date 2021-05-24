@@ -17,10 +17,7 @@ So if you are able to run a batch/bash script, you can just doubleclick on it or
 5. Now, move your extracted folder to your just opened window. This can be done by:
   - Drag & dropping it
   - Selecting your extracted folder, press `Strg` + `X`. Now, go back into your `Lib` folder and press `Strg` + `V`.
-6. Done. You can test, if it's installed correctly by running a commandline and running the command `py` (or `python`/`python3`). Now, type ```python
-import osplus
-```
-
+6. Done. You can test, if it's installed correctly by running a commandline and running the command `py` (or `python`/`python3`). Now, type `import osplus`
 If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 
 ### Linux/Ubuntu:
@@ -28,6 +25,5 @@ If you get an error, it didn't work. You can report any issues in the [GitHub Is
 2. Now, extract and decompress the file. Run `tar -xvzf osplus.tar.gz`.
 3. Copy the created folder `osplus` into the `/usr/lib/python3` directory by running `sudo cp -v osplus /usr/lib/python3`
 4. Done! You can test it by running `python3` and `import osplus`
-
 If If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 To get out of the python interpreter, run `exit()`
