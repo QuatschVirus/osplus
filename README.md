@@ -27,9 +27,7 @@ If you get an error, it didn't work. You can report any issues in the [GitHub Is
 1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/blob/main/osplus/osplus.tar.gz`
 2. Now, extract and decompress the file. Run `tar -xvzf osplus.tar.gz`.
 3. Copy the created folder `osplus` into the `/usr/lib/python3` directory by running `sudo cp -v osplus /usr/lib/python3`
-4. Done! You can test it by running `python3` and ```python
-import osplus
-```
+4. Done! You can test it by running `python3` and `import osplus`
 
 If If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 To get out of the python interpreter, run `exit()`
