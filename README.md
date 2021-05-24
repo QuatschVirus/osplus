@@ -20,6 +20,7 @@ So if you are able to run a batch/bash script, you can just doubleclick on it or
 6. Done. You can test, if it's installed correctly by running a commandline and running the command `py` (or `python`/`python3`). Now, type ```python
 import osplus
 ```
+
 If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 
 ### Linux/Ubuntu:
@@ -29,5 +30,6 @@ If you get an error, it didn't work. You can report any issues in the [GitHub Is
 4. Done! You can test it by running `python3` and ```python
 import osplus
 ```
+
 If If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 To get out of the python interpreter, run `exit()`
