@@ -21,7 +21,7 @@ So if you are able to run a batch/bash script, you can just doubleclick on it or
 If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 
 ### Linux/Ubuntu:
-1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/osplus/latest.tar.gz` (`wget https://github.com/QuatschVirus/osplus/raw/main/ospluslite/latest.tar.gz` for Lite version)
+1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/installation-archives/latest_full.tar.gz` (`wget https://github.com/QuatschVirus/osplus/raw/main/installation-archives/latest_lite.tar.gz` for Lite version)
 2. Now, extract and decompress the file. Run `tar -xvzf osplus.tar.gz`.
 3. Copy the created folder `osplus` into the `/usr/lib/python3` directory by running `sudo cp -v osplus /usr/lib/python3`
 4. Done! You can test it by running `python3` and `import osplus`
