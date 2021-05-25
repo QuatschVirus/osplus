@@ -6,7 +6,7 @@ NOTE: Since i'm too dumb to upload this to PyPi to make it installable via pip, 
 You can install these packages manually by moving the files into a directory.
 
 ## Windows:
-1. Download the desired files from a release (i recommend the latest stable). If you have WinRAR or 7zip installed, you can download the corresponding files directly.
+1. Download the desired files from a release (i recommend the latest stable). If you have WinRAR or 7zip installed, you can download the corresponding files.
 2. Unpack the downloaded file with your favourite tool (or directly with Windows Explorer by right-clicking it, and selecting `Extract all`) in a new subfolder.
 3. Press `WIN` + `R`. Type `appdata` and press `Enter`. It will open a explorer window, which should show 3 Folders: `Local`, `LocalLow` and `Roaming`. Open the `Local` folder.
 4. Navigate to `\Programs\Python`. Now, open the folder corresponding to your Python version (example: with version 3.9 installed, you should open the folder `Python39`) and go into `Lib`
@@ -17,7 +17,7 @@ You can install these packages manually by moving the files into a directory.
 If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 
 ## Linux/Ubuntu:
-1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/installation-archives/latest.tar.gz`
+1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/archives/osplus.tar.gz`
 2. Now, extract and decompress the file. Run `tar -xvzf osplus.tar.gz`.
 3. Copy the created folder `osplus` into the `/usr/lib/python3` directory by running `sudo cp -v osplus /usr/lib/python3`
 4. Done! You can test it by running `python3` and `import osplus`
