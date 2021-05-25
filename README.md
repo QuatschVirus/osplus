@@ -3,11 +3,8 @@ A python package for additional, simple features like easy config files, logging
 NOTE: Since i'm too dumb to upload this to PyPi to make it installable via pip, i'm happy about any offering of help. I already created a setup.py file, since i found advice that was sort of understandable, but i will provide a guide on how to install it manually.
 
 # Installation
-You can install these packages manually by moving the files into a directory. You can also manually install all dependencies by running the pip command with the -r parameter and the requirements.txt file as target. I will try to provide a batch script for windows and eventually a bash script for linux/ubuntu. I don't know a corresponding type for mac, help is wanted.
+You can install these packages manually by moving the files into a directory.
 
-So if you are able to run a batch/bash script, you can just doubleclick on it or run a console in the downloaded and unpacked folder (or navigating there using `cd`) and typing `install.bat` (windows) or `install.sh` (linux/ubuntu)
-
-## Alternative:
 ### Windows:
 1. Download the desired files from a release (i recommend the latest stable). If you have WinRAR or 7zip installed, you can download the corresponding files directly.
 2. Unpack the downloaded file with your favourite tool (or directly with Windows Explorer by right-clicking it, and selecting `Extract all`) in a new subfolder.
@@ -20,7 +17,7 @@ So if you are able to run a batch/bash script, you can just doubleclick on it or
 If you get an error, it didn't work. You can report any issues in the [GitHub Issue Tracker](https://github.com/QuatschVirus/osplus/issues)
 
 ### Linux/Ubuntu:
-1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/installation-archives/latest_full.tar.gz`
+1. Open a command window (SSH works too). Run `cd ~` and `wget https://github.com/QuatschVirus/osplus/raw/main/installation-archives/latest.tar.gz`
 2. Now, extract and decompress the file. Run `tar -xvzf osplus.tar.gz`.
 3. Copy the created folder `osplus` into the `/usr/lib/python3` directory by running `sudo cp -v osplus /usr/lib/python3`
 4. Done! You can test it by running `python3` and `import osplus`
