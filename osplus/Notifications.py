@@ -21,6 +21,7 @@ class Normal(object):
         Button(self.window, text='Cancel', command=self.cancelled)
         if self.help is not None:
             Button(self.window, text='Help', command=self.helped)
+        self.window.mainloop()
 
     def accpeted(self):
         self.window.destroy()
