@@ -13,5 +13,5 @@ def choose_random(*objects):
 def random_sequence(length: int):
     sequence = ''
     for i in range(length + 1):
-        sequence.join(chr(random.randint(97, 122)))
+        sequence += chr(random.randint(48, 122))
     return sequence
