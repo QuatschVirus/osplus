@@ -19,6 +19,8 @@ class Normal(object):
             secs = time.time()
             stamp = f'{time.localtime(secs).tm_mday}.{time.localtime(secs).tm_mon}.{time.localtime(secs).tm_year} - {time.localtime(secs).tm_hour}:{time.localtime(secs).tm_min}:{time.localtime(secs).tm_sec}'
             string = f'[{stamp}] - osplus.Log.LogCreation: The log file in {self.path} was created since it was not found'
+            with open(self.path, 'x')as f:
+                f.write(f'{string}\n')
 
         if self.print:
             print(string)
